@@ -22,7 +22,7 @@ f1 = plt.figure(1)
 
 p1 = plt.scatter(X[y==0,0], X[y==0,1], color='r', label=target_names[0])   # feature
 p2 = plt.scatter(X[y==1,0], X[y==1,1], color='g', label=target_names[1])   # feature
-plt.xlabel(feature_names[0])  
+plt.xlabel(feature_names[0])
 plt.ylabel(feature_names[1])  
 plt.legend(loc='upper right')
 plt.grid(True, linewidth=0.3)
